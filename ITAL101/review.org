@@ -1,0 +1,237 @@
+* pronunciation
+  - c followed by a, o, u: hard sound
+  - c followed by e, i: soft sound
+  - ch: hard sound
+  - g followed by a, o, u: hard sound
+  - g followed by e, i: soft sound
+  - gh: hard sound
+* Greetings
+  | English          | Italian Formal           | Italian Familiar          |
+  |------------------+--------------------------+---------------------------|
+  | Hi               | Buon giorno              | ciao, salve               |
+  | Good morning     | Buon mattino             | Buon mattino, ciao        |
+  | Good afternoon   | Buon pomeriggio          | Buon pomeriggio, ciao     |
+  | Good evening     | Buona sera               | Buona sera, ciao          |
+  | Good night       | Buona notte              | Buona notte, 'notte, ciao |
+  | Good-bye         | Arrivederci, ArrivederLa | ciao, ci vediamo          |
+  | See you soon     | Arrivederci a presto     | a presto                  |
+  | See you tomorrow | Arrivederci a domani     | a domani                  |
+  | How are you?     | Come sta?                | Come stai?                |
+  | How is it going? | Come va?                 | Come va?                  |
+  |------------------+--------------------------+---------------------------|
+  formal: Lei, Loro
+* Masculine/feminine
+  words:
+  | Masculine        | Feminine           |
+  |------------------+--------------------|
+  | -o               | -a                 |
+  | -e, refer to men | -e, refer to women |
+  | -ore             | -ione              |
+  | -\egrave               | -\agrave                 |
+  |------------------+--------------------|
+  indefinite articles:
+  | Masculine           | Feminine         |
+  |---------------------+------------------|
+  | un \to consonant      | una \to consonants |
+  | un \to vowels         | un' \to vowels     |
+  | uno \to s + consonant |                  |
+  | uno \to z-            |                  |
+  | uno \to gn-           |                  |
+  | uno \to ps-           |                  |
+  | uno \to y-            |                  |
+  |---------------------+------------------|
+  definite articles
+    masculine:
+    | singolare          | plurale             |
+    |--------------------+---------------------|
+    | l' \to vowel         | gli \to vowel         |
+    | il \to consonants    | i \to consonant       |
+    | lo \to s + consonant | gli \to s + consonant |
+    | lo \to z-            | gli \to z-            |
+    |--------------------+---------------------|
+    feminine:
+    | singolare           | plurale             |
+    |---------------------+---------------------|
+    | la \to all consonants | le \to all consonants |
+    | l' \to all vowels     | le \to all vowels     |
+    |---------------------+---------------------|
+  possessives:
+    - definite article + possessive adj + noun
+    - note: the definite article must be omitted when referring to family members and relatives
+          Exceptions: 
+	    1. the noun is expressed in the plural
+	    2. the noun is modified by an adj
+	    3. the noun is modified by a suffix
+	    4. the possessive adj is loro
+	    5. mamma, pap\agrave, i parenti, babbo, i genitori, un/una parente, fidanzato
+    masculine:
+    | singular  | plural   |
+    |-----------+----------|
+    | il mio    | i miei   |
+    | il tuo    | i tuoi   |
+    | il suo    | i suoi   |
+    | il nostro | i nostri |
+    | il vostro | i vostri |
+    | il loro   | i loro   |
+    |-----------+----------|
+    feminine:
+    | singular  | plural    |
+    |-----------+-----------|
+    | la mia    | le mie    |
+    | la tua    | le tue    |
+    | la sua    | le sue    |
+    | la nostra | le nostre |
+    | la vostra | le vostre |
+    | la loro   | le loro   |
+    |-----------+-----------|
+  specials:
+    - un cinema
+    - un 'auto
+    - una foto
+    - una bici
+    - una moto
+    - una radio
+    - un frigo
+* Pronomi personali
+  | singular | plural |
+  |----------+--------|
+  | io       | noi    |
+  | tu       | voi    |
+  | lui/lei  | loro   |
+  |----------+--------|
+* essere
+  | singular  | plural    |
+  |-----------+-----------|
+  | io sono   | noi siamo |
+  | tu sei    | voi siete |
+  | lui/lei \egrave | loro sono |
+  |-----------+-----------|
+* avere
+  | singular   | plural      |
+  |------------+-------------|
+  | io ho      | noi abbiamo |
+  | tu hai     | voi avete   |
+  | lui/lei ha | loro hanno  |
+  |------------+-------------|
+* numbers
+  zero uno due tre quattro cinque sei sette otto nove dieci 
+  undici dodici tredici quattordici quindici sedici diciassette diciotto diciannove venti
+  ventuno ventidue ventitr\eacute ventiquattro venticinque ventisei ventisette ventotto ventinove trenta
+  quaranta cinquanta sessanta settanta ottanta novanta cento
+* Time
+  - Che ora \egrave?/ Che ore sono? \to What time is it?
+  - \Egrave l'una \to 1 pm/am
+  - \Egrave mezzogiorno \to noon
+  - \Egrave mezzanotte \to midnight
+  - answer:
+    - Sono le + time + e + minutes / Sono le + time + meno + minutes
+    - \to + della mattina
+    - \to + del pomeriggio
+    - \to + della sera
+    - \to + della notte
+* Plurale dei nomi
+  | single | plural |
+  |--------+--------|
+  | -o     | -i     |
+  | -go    | -ghi   |
+  | -co    | -chi   |
+  | -io    | -i/-ii |
+  | -e     | -i     |
+  | -a     | -e     |
+  | -ga    | -ghe   |
+  | -ca    | -che   |
+  | -ia    | -ie    |
+  |--------+--------|
+* days of the week
+  | English   | Italian   |
+  |-----------+-----------|
+  | Monday    | luned\igrave    |
+  | Tuesday   | marted\igrave   |
+  | Wednesday | mercoled\igrave |
+  | Thursday  | gioved\igrave   |
+  | Friday    | venerd\igrave   |
+  | Saturday  | sabato    |
+  | Sunday    | domenica  |
+  |-----------+-----------|
+* preposition
+** a
+   - with the name of a city or a small island
+   - a + definite article with nouns like bar, ristorante, cinema, estero, parco, universit\agrave, mare
+   - exceptions: teatro, casa, scuola, letto
+   - for directions and distances
+   - times and seasons
+   - some preposizioni avverbiali require 'a'
+   - a when referring to noon or midnight
+   - a + definite article for numbers
+** in 
+   - with the name of a country, continent, region, state, and with large islands
+   - with modes of transportation except walk/horse
+   - for words designating certain buildings, areas of the city or rooms in a house; 
+   - unless used in the plural or modified, the following nouns use in without the definite article:
+   -   biblioteca, banca, chiesa, citt\agrave, centro, piazza, ufficio, classe, camera, cucina, bagno, cantina, soffitta, corridoio, salotto
+** per
+   - for/in order to
+   - partire per ... (to leave for ...)
+   - some common expressions
+** su
+   - out of
+   - about/on a subject or topic
+   - some common expressions
+** summary and some other prepositions
+   - di(d') \to of
+   - a \to at, to, in
+   - da \to from, by
+   - in \to in
+   - con \to with
+   - su \to on, over, above
+   - per \to for, in order to
+   - tra(fra) \to between, among
+   - sopra \to above, on (top of)
+   - sotto \to under, below
+   - dentro \to in, inside
+   - fuori \to out, outside
+   - davanti (a) \to in front (of)
+   - dietro \to behind
+   - vicino (a) \to near, beside
+   - lontano (da) \to far (from)
+* preposistion & article
+  |    | il  | lo    | l'(m.) | la    | l'(f.) | i   | gli   | le    |
+  |----+-----+-------+--------+-------+--------+-----+-------+-------|
+  | a  | al  | allo  | all'   | alla  | all'   | ai  | agli  | alle  |
+  | da | dal | dallo | dall'  | dalla | dall'  | dai | dagli | dalle |
+  | di | del | dello | dell'  | della | dell'  | dei | degli | delle |
+  | in | nel | nello | nell'  | nella | nell'  | nei | negli | nelle |
+  | su | sul | sullo | sull   | sulla | sull'  | sui | sugli | sulle |
+  |----+-----+-------+--------+-------+--------+-----+-------+-------|
+* there be
+  - C'\egrave \to there is
+  - Non c'\egrave \to there isn't
+  - Ci sono \to there are
+  - Non ci sono \to there aren't
+  - -- above are used to indicate or to point towards someone or something in sight or not
+  - Ecco : used to point out someone or something in sight
+* Verbi irregolari
+  dare(to give)
+  | singular | plural |
+  |----------+--------|
+  | do       | diamo  |
+  | dai      | date   |
+  | d\agrave       | danno  |
+  |----------+--------|
+  fare (to do; to make)
+  | singular | plural   |
+  |----------+----------|
+  | faccio   | facciamo |
+  | fai      | fate     |
+  | fa       | fanno    |
+  |----------+----------|
+  stare (to stay; to be)
+  | singular | plural |
+  |----------+--------|
+  | sto      | stiamo |
+  | stai     | state  |
+  | sta      | stanno |
+  |----------+--------|
+  
+
+  

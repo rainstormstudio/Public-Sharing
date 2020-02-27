@@ -1,0 +1,286 @@
+| Italian                     | English                 |
+|-----------------------------+-------------------------|
+| i genitori                  | parents                 |
+| il marito                   | husband                 |
+| la moglie                   | wife                    |
+| il fratello                 | brother                 |
+| la sorella                  | sister                  |
+| lo zio/ la zia              | uncle/aunt              |
+| il cugino/ la cugina        | cousin                  |
+| il nipote                   | grandson; nephew        |
+| la nipote                   | granddaughter;niece     |
+| i figli                     | children                |
+| il suocero                  | father-in-law           |
+| madre/mamma                 | mother/mom              |
+| nubile                      | single female           |
+| celibe                      | single male             |
+| fidanzato/a                 | fiance                  |
+| sposato/a                   | married                 |
+| separato/a                  | separated               |
+| divorziato/a                | divorced                |
+| vedovo/a                    | widower/ widow          |
+| il mio ragazzo              | my voyfriend            |
+| la mia ragazza              | my girlfriend           |
+| i nonni                     | grandparents            |
+| la suocera                  | mother-in-law           |
+| padre/pap\agrave                  | father/dad              |
+| una strada                  | street, road            |
+| una via                     | street, way             |
+| una piazza                  | sqaure                  |
+| una fontana                 | fountain                |
+| un monumento                | monument                |
+| una chiesa                  | church                  |
+| una scuola                  | school                  |
+| un'universit\agrave               | university              |
+| un edificio                 | building                |
+| un grattacielo              | skyscraper              |
+| un albergo                  | hotel                   |
+| un bar                      | coffee shop             |
+| un ristorante               | restaurant              |
+| un negozio                  | store, shop             |
+| un supermercato             | supermarket             |
+| un ufficio postale          | post office             |
+| un ufficio turistico        | tourist office          |
+| una banca                   | bank                    |
+| una farmacia                | pharmacy                |
+| un ospedale                 | hospital                |
+| un cinema                   | cinema                  |
+| un teatro                   | theater                 |
+| uno stadio                  | stadium                 |
+| un parco                    | park                    |
+| una stazione                | station                 |
+| un autobus                  | bus                     |
+| un treno                    | train                   |
+| un tram                     | streetcar               |
+| un'auto                     | car                     |
+| una macchina                | car                     |
+| una moto                    | motorcycle              |
+| una bici                    | bike                    |
+| un motorino                 | moped                   |
+| il traffico                 | traffic                 |
+| la metropolitana            | subway                  |
+| lontano                     | far                     |
+| vicino                      | near                    |
+| Dov'\egrave ...?                  | where is ... ?          |
+| Che cos'\egrave ...?              | what is ... ?           |
+| C'\egrave un bancomat?            | is there an ATM?        |
+| S\igrave, c'\egrave.                    | Yes, there is.          |
+| a destra                    | to the right            |
+| a sinistra                  | to the left             |
+| avanti diritto              | straight ahead          |
+| Scusi                       | excuse me               |
+| in centro                   | downtown                |
+| avere fame                  | to be hungry            |
+| avere sete                  | to be thirsty           |
+| avere sonno                 | to be sleepy            |
+| avere paura (di)            | to be afraid (of)       |
+| avere voglia (di)           | to feel like            |
+| avere bisogno (di)          | to need                 |
+| avere caldo                 | to be hot               |
+| avere freddo                | to be cold              |
+| avere ragione               | to be right             |
+| avere torto                 | to be wrong             |
+| avere fretta                | to be in a hurry        |
+| abitare                     | to live                 |
+| ascoltare                   | to listen (to)          |
+| aspettare                   | to wait (for)           |
+| cantare                     | to sing                 |
+| comprare                    | to buy                  |
+| desiderare                  | to wish, to want        |
+| domandare                   | to ask                  |
+| giocare (a)                 | to play (a game)        |
+| guardare                    | to watch, look at       |
+| cercare                     | to look for             |
+| imparare                    | to learn                |
+| cominciare                  | to begin                |
+| lavorare                    | to work                 |
+| mangiare                    | to eat                  |
+| parlare (a)/(di)            | to speak (to/about)     |
+| pensare (a)/(di)            | to think (about/of)     |
+| spiegare                    | to explain              |
+| suonare                     | to play (music)         |
+| incontrare                  | to meet                 |
+| trovare                     | to find                 |
+| la biologia                 | biology                 |
+| la psicologia               | psychology              |
+| la sociologia               | sociology               |
+| la chimica                  | chemistry               |
+| la fisica                   | physics                 |
+| l'informatica               | computer science        |
+| l'economia                  | economics               |
+| la letteratura              | literature              |
+| la musica                   | music                   |
+| la storia                   | history                 |
+| la storia dell'arte         | art history             |
+| la filosofia                | philosohy               |
+| le lingue straniere         | foreign languages       |
+| le relazioni internazionali | international relatoins |
+| le scienze naturali         | natural sciences        |
+| le scienze politiche        | political science       |
+| facolt\agrave                     | school/department       |
+| il titolo di studio         | degree                  |
+| la borsa di studio          | scholarship             |
+| il corso                    | course/class            |
+| la materia                  | subject                 |
+| la conferenza               | lecture                 |
+| la biblioteca               | library                 |
+| gli appunti                 | notes                   |
+| l'insegnante                | teacher                 |
+| il liceo                    | high school             |
+| studiare                    | to study                |
+| frequentare                 | to attend               |
+| insegnare                   | to teach                |
+| imparare                    | to learn                |
+| presente/assente            | present/absent          |
+| studente                    | student                 |
+| professore                  | professor               |
+| lezione                     | lesson                  |
+| possibile                   | possible                |
+| famoso                      | famous                  |
+| intersessante               | interesting             |
+| studiare                    | to study                |
+| arrivare                    | to arrive               |
+| entrare                     | to enter                |
+| le Alpi                     | Alps                    |
+| gli Appennini               | Apennines               |
+| la baia                     | bay                     |
+| la capitale                 | capital (of a country)  |
+| il capoluogo                | capital (of a region)   |
+| la catena di montagne       | mountain range          |
+| la citt\agrave                    | city                    |
+| il fiume                    | river                   |
+| il golfo                    | gulf                    |
+| l'isola                     | island                  |
+| il lago                     | lake                    |
+| il mare                     | sea                     |
+| la montagna                 | mountain                |
+| il paese                    | country                 |
+| la penisola                 | peninsula               |
+| il Po                       | Po (River)              |
+| il porto                    | port                    |
+| la provincia                | province                |
+| la regione                  | region                  |
+| lo stretto                  | strait                  |
+| il nord                     | north                   |
+| l'ovest                     | west                    |
+| il sud                      | south                   |
+| l'est                       | east                    |
+| molto                       | a lot                   |
+| bene                        | good                    |
+| il libro                    | book                    |
+| il calendario               | calendar                |
+| la rivista                  | magazine                |
+| il quaderno                 | notebook/copybook       |
+| il giornale                 | newspaper               |
+| il televisore               | television              |
+| la penna                    | pen                     |
+| la matita                   | pencil                  |
+| il motorino                 | motorcycle              |
+| il lettore MP3              | MP3 reader              |
+| la calcolatrice             | calculator              |
+| il orologio                 | watch                   |
+| la sedia                    | chair                   |
+| il tavolo                   | table                   |
+| il computer                 | computer                |
+| il telefonino               | phone                   |
+| il telefono                 | telepone                |
+| lo zaino                    | backpack                |
+| la bicicletta               | bicycle                 |
+| l'amica                     | (female) friend         |
+| l'amico                     | (male) friend           |
+| il cane                     | dog                     |
+| la casa                     | house                   |
+| la famiglia                 | family                  |
+| il gatto                    | cat                     |
+| il rumore                   | noise                   |
+| la villa                    | country house           |
+| grande                      | big                     |
+| piccolo/a                   | small                   |
+| insegnare                   | to teach                |
+| lavorare                    | to work                 |
+| fouri                       | outside                 |
+| l'aranciata                 | orange soda             |
+| la carta                    | card                    |
+| l'esame                     | exam                    |
+| la gelateria                | ice cream shop          |
+| il gelato                   | ice cream               |
+| il panino                   | sandwich                |
+| pomeriggio                  | afternoon               |
+| lo spuntino                 | snack                   |
+| buono/a                     | good                    |
+| questo/a                    | this                    |
+| andare                      | to go                   |
+| va                          | he/she goes             |
+| fare                        | to do/ to make          |
+| mostrare                    | to show                 |
+| ordinare                    | to order (food)         |
+| parlare                     | to speak, talk          |
+| passare                     | to come by              |
+| passeggiare                 | to walk, take a walk    |
+| prendere                    | to take, to have        |
+| squillare                   | to ring                 |
+| telefonare                  | to telephone            |
+| uscire                      | to go out               |
+| adesso                      | now                     |
+| allora                      | well, then; then        |
+| chi?                        | who                     |
+| d'accordo                   | agreed, OK              |
+| domani                      | tomorrow                |
+| mentre                      | while                   |
+| oggi                        | today                   |
+| perch\eacute                      | why/because             |
+| qualcosa                    | something               |
+| quando                      | when(ever)              |
+| verso                       | toward, around (time)   |
+| per favore                  | please                  |
+| vicino a                    | near                    |
+| l'ospedale                  | hospital                |
+| il museo                    | museum                  |
+| la libreria                 | bookstore               |
+| la chiesa                   | church                  |
+| il parcheggio               | parking area            |
+| la discoteca                | dance club              |
+| ballare                     | to dance                |
+| cantare                     | to sing                 |
+| cercare                     | to look (for)           |
+| chiamare                    | to call                 |
+| l'acqua                     | water                   |
+| il bicchiere                | (drinking) glass        |
+| il biglietto                | ticket                  |
+| il caff\egrave                    | caf\eacute                    |
+| il cameriere                | waiter                  |
+| il canto                    | song                    |
+| il limonata                 | lemon soda              |
+| lo spettacolo               | show                    |
+| il t\egrave                       | tea                     |
+| il t\egrave freddo                | iced tea                |
+| fresco/a                    | cool, fresh             |
+| impegnato/a                 | busy, engaged           |
+| libero/a                    | free                    |
+| bere                        | to drink                |
+| chiudere                    | to close                |
+| conoscere                   | to know                 |
+| credere                     | to believe, think       |
+| domandare                   | to ask                  |
+| leggere                     | to read                 |
+| perdere                     | to lose                 |
+| prendere                    | to get                  |
+| promettere                  | to promise              |
+| vedere                      | to see                  |
+| vendere                     | to sell                 |
+| ricevere                    | to receive              |
+| scrivere                    | to write                |
+| spendere                    | to spend                |
+| dopo                        | after                   |
+| dopodomani                  | the day after tomorrow  |
+| intanto                     | meanwhile               |
+| invece                      | instead                 |
+| scusi                       | excuse me               |
+| se                          | if                      |
+| spesso                      | often                   |
+| subito                      | right away, immediately |
+| tardi                       | late                    |
+|                             |                         |
+
+
+
