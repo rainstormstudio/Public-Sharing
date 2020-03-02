@@ -1,0 +1,292 @@
+* Imperative Programming
+** common programming paradigms
+*** functional
+    - functions only return values
+    - return values only depend on argument values
+    - only constants are used
+*** imperative
+    - a lock (compound statement): a sequence of statement
+    - control flow is used to change the order of statements
+    - imperative programming uses side effects
+*** object-oriented
+    - /
+** static type system
+   - all type must be known before the program is run and the type of an identifier cannot change
+** pure/impure functions
+*** pure functions
+    - functions only return values (no side effects)
+    - return values only depend on argument values
+*** impure functions
+    - has side effects
+    - A.K.A. "procedures"
+    - depend on global mutable variables
+** C Language
+*** function documentation
+    - purpose
+    - effects
+      - I/O
+      - passing by reference
+      - global variables
+    - requires
+*** preprocessor directives
+    #+BEGIN_SRC
+#include
+#define
+...
+    #+END_SRC
+*** statements
+**** compound statements (blocks)
+     - a sequence of statements (to be executed in order)
+**** expression statements
+     - traditional infix algebraic notation
+     - for generating side effects (values are discarded)
+**** control flow statements
+     - control the order in which other statements are executed
+*** function terminology
+    - we call a function by passing it arguments
+    - a function returns a value
+*** entry point
+    - entry point is where to start running the program
+    - in C, the entry point is a special function named main
+*** initialization
+    - always initialize variables
+    - the '=' used in initialization is not the assignment operator
+*** top-level expressions
+    - in C, top-level expressions (code outside of a function) are not allowed
+    - code only executes inside of a function
+*** variables
+**** definition
+     - the type
+     - the identifier
+     - the initial value
+**** scope
+     - the region of code where it is accessible or visible
+**** global
+     - defined outside of functions
+**** local
+     - defined inside of functions
+*** constants
+    - a constant is a variable that is immutable
+**** pros
+     - communicates the intended use of the variable
+     - prevents accidental or unintended mutation
+     - may help optimize the code
+*** assignment operator
+    - mutation is achieved with the assignment operator(=)
+      - the RHS must be an expression that produces a value with the same type as the LHS
+      - the LHS must be the name of a variable (for now)
+      - the LHS variable is changed (mutated) to store the value of the RHS expression.
+      - this is a side effect: the state of the variable has changed
+    - compound assignment operator (+=, -=, *=, /=, %=)
+      - prefix and postfix increment operator
+      - x++ produces the old value of x and then increments x
+      - ++x increments x and then produces the new value of x
+*** input: scanf
+    #+BEGIN_SRC c++
+scanf("%d", &i); // read in an integer, store it in i
+    #+END_SRC
+**** scanf return value
+     the return value of scanf is an int, and either
+     - the quantity of values successfully read
+     - zero if the input is not formatted properly
+     - the constant EOF
+**** whitespace
+     #+BEGIN_SRC c++
+// reads in next character (may be whitespace character)
+count = scanf("%c", &c);
+
+// reads in next character, ignoring whitespaces
+count = scanf(" %c", &c);
+     #+END_SRC
+*** output: printf
+    #+BEGIN_SRC c++
+printf("%d", i); // prints an integer i
+    #+END_SRC
+**** specifiers
+    | specifier | output          |
+    |-----------+-----------------|
+    | d         | int             |
+    | f         | float           |
+    | c         | char            |
+    | p         | pointer address |
+    |-----------+-----------------|
+** preference for function design
+   1. pure function: no side effects or dependencies on global mutable variables
+   2. only I/O side effects: if possible, avoid any mutative side effects
+   3. mutate data through pointer parameters: if mutation is necessary, use a pointer parameter
+   4. global dependencies: mutable global variables should be avoided
+   5. mutated global data: only when absolutely necessary
+* Elementary data structures & abstract data types
+** pointers
+*** address operator
+    address operator (&) produces the location of an identifier in memory
+*** indirection operator
+    the indirection operator (*), also known as the dereference operator, is the inverse of the address operator (&)
+*** definition
+    the * is part of the definition of p and is not part of the variable name
+*** NULL pointer
+    NULL is a special pointer value to represent that the pointer points to nothing
+*** const pointer
+    adding the const keyword to a pointer definition prevents the pointer's destination from being mutated through the pointer
+*** aliasing
+    when the same memory address can be accessed from more than one variable
+*** returning an address
+    a function must never return an address within its stack frame
+*** function pointers
+    a function pointer can only point to a function that already exists
+    - syntax to define a function pointer
+      #+BEGIN_SRC c++
+return_type (*fpname)(param1_type, param2_type, ...);
+      #+END_SRC
+** structures
+   - structure operator (.)
+   - memory is only reserved when a struct variable is defined
+   - the amount of space reserved for a struct is at least the sum of the sizeof each field, but it bay be larger
+*** mutation with structures
+    - the braces {} are part of the initialization syntax and cannot be used in assignment
+    - the equality operator (=) does not work with structures
+** arrays
+   a data structure that contains a fixed number of elements that all have the same type
+   - arrays can only be initialized with brace {}
+     #+BEGIN_SRC c++
+int a[6] = {4, 8, 12, 9, 23, 5};
+     #+END_SRC
+   - you must keep track of the array length separately
+* Modularization
+** advantages
+   - re-usability
+   - maintainability
+   - abstraction
+** declarations vs definitions
+   - a declaration only specifies the type of an identifier
+   - a definition instructs C to create the identifier
+   - NOTE: a definition also includes a declaration
+** scope
+*** local (block) identifiers
+    only available inside of the function (or block)
+*** global identifiers
+**** program scope
+     available to any file in the program (if declared)
+**** module scope
+     - only available in the file they are defined in
+     - static keyword restricts the scope of a global identifier to the file it is define in
+** module interface
+   the list of the function sthat the module provides (including the documentation)
+   - an overall description of the module
+   - a function declaration for each provided function
+   - documentation for each provided function
+** cohesion and coupling
+*** high cohesion
+    all of the interface functions are related and working toward a common goal
+*** low coupling
+    there is little interaction between modules
+** interface vs implementation
+*** information hiding
+**** opaque structures
+     an opaque structure is like a black box that the client cannot see inside of
+     - incomplete declarations: only pointers to the structure can be defined
+**** transparent structures
+     - simply put the complete definition of the struct in the interface file (.h file)
+* Memory Management & State
+** basics
+*** pass by value
+    - C makes a copy of each argument value and places the copy in the stack frame
+*** uninitialized memory
+    - global variables: initialized as 0
+    - local variables: initialized as an arbitrary value
+** control flow
+   - we use control flow to model how programs are executed
+   - during execution, we keep tracking of the program location, which is where in the code the execution is currently occurring
+*** statements
+    - return statement is control flow statement
+    - if control flow statement
+*** types of control flow
+    - functoin calls
+    - conditionals
+    - iterations
+** memory
+   - position in memory: address
+   - sizeof (operator)
+   - type sizes:
+     | type         | size in byte |
+     |--------------+--------------|
+     | char         |            1 |
+     | in           |            4 |
+     | short        |            2 |
+     | long         |            8 |
+     | float        |            4 |
+     | double       |            8 |
+     | any *pointer |            8 |
+     |--------------+--------------|
+   - overflow
+*** defining variables
+    - reserves space in memory to store the variable
+    - keeps track of the address of that storage location
+    - stores the initial value of the variable at that location
+*** sections of memory
+    | sections       |
+    |----------------|
+    | code           |
+    | read-only data |
+    | global data    |
+    | heap           |
+    | stack          |
+    |----------------|
+    - sections are combined into memory segments
+    - when you try to access memory outside of a segment, a segmentation fault occurs
+    - all global variables are placed in either the read-only data section (constants) or the global data section (mutable variables)
+    - global variables are available throughout the entire execution of the program, and the space for the global variables is reserved before the program begins execution
+**** before the main function is called
+     1. the code from the entire program is scanned and all global variables are identified
+     2. space for each global variables is reserved
+     3. the memory is properly initialized
+**** stack frames
+     - the argument values
+     - all local variables (both mutable and constants)
+     - the return address
+**** calling a function
+     1. a stack frame is created
+     2. a copy of each of the arguments is placed in the stack frame
+     3. the current program location is placed in the stack frame as the return address
+     4. the program location is changed to the start of the new function
+     5. the initial values of local variables are set when their definition is encountered
+**** return
+     - the current program location is changed back to the return address
+     - the stack frame is removed
+*** memory diagram:
+    #+BEGIN_SRC c++
+==================================================
+g:
+  y: 8
+  c: 64
+  return address: f:13
+==================================================
+f:
+  x: 2
+  b: 5
+  d: ???
+  return address: main:18
+==================================================
+main:
+  a: ???
+  return address: OS
+==================================================
+    #+END_SRC
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
