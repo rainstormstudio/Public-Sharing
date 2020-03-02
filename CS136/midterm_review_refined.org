@@ -25,7 +25,7 @@
     - purpose
     - effects
       - I/O
-      - passing by reference
+      - passing by pointer
       - global variables
     - requires
 *** preprocessor directives
