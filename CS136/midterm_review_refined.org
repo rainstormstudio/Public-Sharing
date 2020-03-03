@@ -5,7 +5,7 @@
     - return values only depend on argument values
     - only constants are used
 *** imperative
-    - a lock (compound statement): a sequence of statement
+    - a block (compound statement): a sequence of statement
     - control flow is used to change the order of statements
     - imperative programming uses side effects
 *** object-oriented
