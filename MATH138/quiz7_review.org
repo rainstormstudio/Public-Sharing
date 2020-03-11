@@ -5,7 +5,7 @@
    - if |r| < 1, then \Sigma_{n=0}^{\infin} r^{n} = 1/(1-r)
 ** Divergence Test
    - Assume that \Sigma_{n=1}^{\infin} a_{n} converges. then lim_{n\to\infin} a_{n} = 0
-   - Equivalently, if lim_{n\to{}\infin} a_{n} \ne 0 or if lim_{n\to\infin} a_{n} does not exists, then \Sigma_{n=1}^{\infin} a_{n} diverges
+   - Equivalently, if lim_{n{}\to{}\infin} a_{n} \ne 0 or if lim_{n\to\infin} a_{n} does not exists, then \Sigma_{n=1}^{\infin} a_{n} diverges
 * 5.5 Positive Series
 ** Monotonic Sequences
    - non-decreasing if a_{n+1} \ge a_{n} \forall{}n\in{}N
