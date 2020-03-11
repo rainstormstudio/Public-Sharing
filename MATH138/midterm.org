@@ -1,0 +1,95 @@
+* Partition
+  a partition P for the interval [a, b] is a finite sequence of 
+  increasing numbers of the form a=t_0 < t_1 < ... < t_n = b
+  this partition subdivedes interval [a, b] into n subintervals
+* The norm of the partition
+  it's the length of the widest subinterval
+* Riemann Sum
+  Given a bounded function f on [a, b], a partition P of [a, b] and 
+  a set {c_1, c_2, ... , c_n} where c_i \in [t_{i-1}, t_i]
+  then a Riemann Sum of f with respect to P is S = \Sigma{}_{i=1}^n f(c_i)\Delta{}t_i
+* Integrability
+  We say f is integrable on [a, b] if there exists a unique I \in R 
+  such that whenever {P_n} is a sequence of partitions
+  with lim_n\to\infin ||P_n|| = 0 and {S_n} is any sequence of Riemann Sums 
+  associated with the P_n's we have lim_n\to\infin S_n = I
+* Theorem: Integrability Theorem for Continuous Functions
+  if f is continuous on [a, b], then it is integrable on [a, b]
+* regular n-parition
+  for the interval [a, b], the regular n-partition is the partition 
+  where all subintervals have the same length.
+  that is \Delta{}t = (b-a)/n and ti = a + i\Delta{}t
+  - so R_n = \Sigma_{i=1}^n f(t_i)\Delta{}t = \Sigma_{i=1}^n f(t_i)(b-a)/n
+    and \int_a^b f(x)dx = lim_n\to\infin \Sigma_{i=1}^{n} f(t_i)(b-a)/n
+* Theorem: Integrals over Subintervals
+  if f is integrable over interval I containing a, b, c, then
+  \int_a^b f(x)dx = \int_a^c f(x)dx + \int_c^b f(x)dx
+* Average value of a function
+  if f is continuous on [a, b], then the average value of f
+  Avg = 1/(b-a) \int_a^b f(x)dx
+* Theorem: Average Value Theorem (AVT)
+  if f is continuous on [a, b], then \exist{}c \in [a,b] such that
+  f(c) = 1/(b-a) \int_a^b f(x)dx
+* Theorem: Fundamental Theorem of Calculus Part I (FTC1)
+  if f is continuous on an open interval I containing a point x = a
+  and if G(x) = \int_a^x f(t)dt, then G(x) is differentiable at each x \in I,
+  and G'(x) = f(x). That is d/dx \int_a^x f(t)dt = f(x)
+* Corollary (extended version of FTC1) 
+  if f is continuous and g and h are differentiable,
+  then d/dx \int_{g(x)}^{h(x)} f(t)dt = f(h(x))h'(x) - f(g(x))g'(x)
+* Theorem: Fundamental Theorem of Calculus Part II (FTC2)
+  if f is continuous on [a, b] and F is any antiderivative of f
+  then \int_a^b f(x)dx = F(b) - F(a) = F(x)|_a^b
+* Theorem: (Substitution Rule)
+  if u = g(x) is differentiable and f is continuous on the rage of g,
+  then \int f(g(x))g'(x)dx = \int f(u)du
+* Integration by Parts
+  \int{}udv = uv - \int{}vdu
+* Theorem: P-test
+  \int_1^\infin 1/x^p dx converges if and only if p > 1
+* Theorem: Absolute Convergence Theorem (ACT)
+  let f be integrable on [a, b] \forall{}b > a
+  then |f| is integrable on [a, b] \forall{}b > a
+  also, if \int_a^\infin |f(x)|dx converges, then \int_a^\infin f(x)dx converges
+* Comparison Test
+  if f and g are continuous functions with 0 \le g(x) \le f(x)
+  for x \ge a then
+  - if \int_a^\infin f(x)dx is convergent, then \int_a^\infin g(x)dx is convergent
+    if \int_a^\infin g(x)dx is divergent, then \int_a^\infin f(x)dx is divergent
+* Separable DEs
+  a first order separable DE is a DE that can be written in the form
+  dy/dx = f(x)g(y)
+* First order Linear DE
+  start with the standard form: dy/dx + P(x)y = Q(x)
+  multiply by integrating factor I(x) = e^{\int{}P(x)dx}
+  so DE becomes d/dx(I(x)y) = I(x)Q(x)
+  lastly integrate both sides get y = 1/(I(x))\int{}I(x)Q(x)dx
+* Theorem: The Existence and Uniqueness Theorem
+  assume P(x), Q(x) are continuous on interval I
+  then for each x_0 \in I and y_0 \in R,
+  the IVP y' + P(x)y = Q(x) , y(x_0) = y_0
+  has exactly one solution on I.
+* Applications
+** The law of natural growth: 
+   dP/dt = kP
+   where P(t) is size of population at time t
+   k is a proportionality constant
+** Decay Problems
+   dm/dt = km
+   where m(t) is mass at time t
+   k is the proportionality constant
+** Newton's Law of Cooling
+   dT/dt = k(T(t) - T_s)
+   where T(t) is the temperature of object at time t
+   T_s is the temperature surrounding s
+   k is the proportionality constant
+** The Logistic Model for Population Growth
+   dP/dt = kP(1-P/M)
+   where P is population size at time t
+   M is carrying capacity
+   k is a proportionality constant
+
+
+
+
+

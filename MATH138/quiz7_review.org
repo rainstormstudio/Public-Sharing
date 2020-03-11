@@ -1,0 +1,74 @@
+5.5 \to 5.7
+* 5.5 Positive Series
+** Monotonic Sequences
+   - non-decreasing if a_{n+1} \ge a_{n} \forall{}n\in{}N
+   - increasing if a_{n+1} > a_{n} \forall{}n\in{}N
+   - non-increasing if a_{n+1} \le a_{n} \forall{}n\in{}N
+   - decreasing if a_{n+1} < a_{n} \forall{}n\in{}N
+** Monotone Convergence Theorem (MCT)
+   - Let {a_{n}} be an non-decreasing sequence.
+     1. if {a_{n}} is bounded above, then {a_{n}} converges to L = lub{a_{n}}.
+     2. if {a_{n}} is not bounded above, then {a_{n}} diverges to \infin.
+   - in particular, {a_{n}} converges if and only if it is bounded above.
+** Positive Series
+   We call a series \Sigma_{n=1}^{\infin }a_{n} positive if the terms a_{n} \ge 0 \forall{}n\in{}N
+** Comparison Test for Series
+   - Assume that 0 \le a_{n} \le b_{n} for each n\in{}N
+     1. if \Sigma_{n=1}^{\infin} b_{n} converges, then \Sigma_{n=1}^{\infin} a_{n} converges
+     2. if \Sigma_{n=1}^{\infin} a_{n} diverges, then \Sigma_{n=1}^{\infin} b_{n} diverges
+** Limit Comparison Test (LCT)
+   - Assume that a_{n} > 0 and b_{n} > 0 for each n\in{}N.
+   - Assume also that lim_{n->\infin} a_{n} / b_{n} = L where either L\in{}R or L = \infin.
+     1. if 0 < L < \infin, then \Sigma_{n=1}^{\infin} a_{n} converges if and only if \Sigma_{n=1}^{\infin} b_{n} converges
+     2. if L = 0 and \Sigma_{n=1}^{\infin} b_{n} converges, then \Sigma_{n=1}^{\infin} a_{n} converges. Equivalently, if \Sigma_{n=1}^{\infin} a_{n} diverges, then so does \Sigma_{n=1}^{\infin} b_{n}.
+     3. if L = \infin and \Sigma_{n=1}^{\infin} a_{n} converges, then \Sigma_{n=1}^{\infin} b_{n} converges. Equivalentlly, if \Sigma_{n=1}^{\infin} b_{n} diverges, then so does \Sigma_{n=1}^{\infin} a_{n}
+* 5.6 Integral Test for Convergence of Series
+** Integral Test for Convergence
+   - Assume that 
+     1. \fnof is continuous on [1, \infin)
+     2. \fnof(x) > 0 on [1, \infin)
+     3. \fnof is decreasing on [1, \infin)
+     4. a_{k} = \fnof(k) 
+   - for each n\in{}N, let S_{n} = \Sigma_{k=1}^{n} a_{k}. then
+     1. \forall{}n\in{}N, \int_{1}^{n+1} \fnof(x)dx \le S_{n} \le a_{1} + \int_{1}^{n} \fnof(x)dx
+     2. \Sigma_{k=1}^{\infin} a_{k} converges if and only if \int_{1}^{\infin} \fnof(x)dx converges
+     3. in the case that \Sigma_{k=1}^{\infin} a_{k} converges, then
+	- \int_{1}^{\infin} \fnof(x)dx \le \Sigma_{k=1}^{\infin} a_{k} \le a_{1} + \int_{1}^{\infin} \fnof(x)dx
+	- and \int_{n+1}^{\infin} \fnof(x)dx \le S - S_{n} \le \int_{n}^{\infin} \fnof(x)dx
+	- where S = \Sigma_{k=1}^{\infin} a_{k}
+** p-Series Test
+   The series \Sigma_{n=1}^{\infin} 1/n^{p} converges if and only if p > 1
+* 5.7 Alternating Series
+** Alternating Series
+   - A series of the form \Sigma_{n=1}^{\infin}(-1)^{n-1}a_{n} = a_{1} - a_{2} + a_{3} - a_{4} + ...
+   - or of the form \Sigma_{n=1}^{\infin}(-1)^{n}a_{n} = - a_{1} + a_{2} - a_{3} + a_{4} - ...
+   - is said to be alternating provided that a_{n} > 0 \forall{}n
+** Alternating Series Test (AST)
+   - Assume that 
+     1. a_{n} > 0 \forall{}n
+     2. a_{n+1} \le a_{n} \forall{}n
+     3. lim_{n\to\infin} a_{n} = 0
+   - then the alternating series \Sigma_{n=1}^{\infin}(-1)^{n-1}a_{n} converges.
+   - if S_{k} = \Sigma_{n=1}^{k}(-1^{n-1}a_{n}, then S_{k} approximates the sum S = \Sigma_{n=1}^{\infin}(-1)^{n-1}a_{n} with an error that is at most a_{k+1}. 
+     - That is |S_{k} - S| \le a_{k+1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
